@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.img-fluiid {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+@media screen and (max-width:740px) and (min-width:640px) {
+    .img-fluiid {
+        max-width: 100rem;
+        height: 50rem;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .img-fluiid {
+        max-width: 100rem;
+        height: 100rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .img-fluiid {
+        max-width: 100%;
+        height: 150rem;
+    }
+}
